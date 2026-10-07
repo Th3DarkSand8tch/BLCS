@@ -1,0 +1,28 @@
+name: Envoi des blocus vers le site
+
+on:
+  push:
+    branches: [main]
+    paths: [blocus.json, scripts/sync.mjs, .github/workflows/sync.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-blocus
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/sync.mjs
+        env:
+          # Clé publique du site (la même que dans index.html), pas la clé "service_role".
+          SUPABASE_URL: https://xmrhokeipkxchyjdmavb.supabase.co
+          SUPABASE_KEY: sb_publishable_Cw5uC1URwjKEiBFTYoWEuw_lJLxCuHN
