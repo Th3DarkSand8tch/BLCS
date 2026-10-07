@@ -1,1 +1,10 @@
-[]
+[
+  {"ville": "brest", "lieu": "Cité scolaire de Kérichen", "date": "2026-10-07", "heure": "", "source": "https://www.titrespresse.com/24216682603/mouvement-brest-kerichen", "cree": "2026-10-07T12:40:00+02:00"},
+  {"ville": "bron", "lieu": "Université Lyon 2 – Campus Porte des Alpes", "date": "2026-10-07", "heure": "", "source": "https://www.lyonmag.com/article/154296/mobilisation-lyceenne-a-lyon-universites-bloquees-rassemblements-devant-trois-lycees-et-tramway-perturbe", "cree": "2026-10-07T14:36:00+02:00"},
+  {"ville": "lyon", "lieu": "Université Lyon 2 – Campus Berges du Rhône", "date": "2026-10-07", "heure": "", "source": "https://www.lyonmag.com/article/154296/mobilisation-lyceenne-a-lyon-universites-bloquees-rassemblements-devant-trois-lycees-et-tramway-perturbe", "cree": "2026-10-07T14:36:00+02:00"},
+  {"ville": "paris", "lieu": "Lycée Hélène Boucher (20e)", "date": "2026-10-07", "heure": "", "source": "https://www.jeanmarcmorandini.com/article-654089-en-direct-lycees-la-situation-se-tend-pres-de-sciences-po-paris-avec-des-manifestants-qui-montent-des-barricades-du-gaz-lacrymogene-utilise-par-les-forces-de-l-ordre.html", "cree": "2026-10-07T12:40:00+02:00"},
+  {"ville": "paris", "lieu": "Lycée Voltaire (11e)", "date": "2026-10-07", "heure": "", "source": "https://www.jeanmarcmorandini.com/article-654089-en-direct-lycees-la-situation-se-tend-pres-de-sciences-po-paris-avec-des-manifestants-qui-montent-des-barricades-du-gaz-lacrymogene-utilise-par-les-forces-de-l-ordre.html", "cree": "2026-10-07T12:40:00+02:00"},
+  {"ville": "paris", "lieu": "Sciences Po Paris", "date": "2026-10-07", "heure": "", "source": "https://www.jeanmarcmorandini.com/article-654089-en-direct-lycees-la-situation-se-tend-pres-de-sciences-po-paris-avec-des-manifestants-qui-montent-des-barricades-du-gaz-lacrymogene-utilise-par-les-forces-de-l-ordre.html", "cree": "2026-10-07T12:40:00+02:00"},
+  {"ville": "saint-etienne", "lieu": "Lycée Honoré d'Urfé", "date": "2026-10-07", "heure": "", "source": "https://www.titrespresse.com/24216712603/mouvement-honore-urfe", "cree": "2026-10-07T12:40:00+02:00"},
+  {"ville": "saint-priest-en-jarez", "lieu": "Lycée Simone Weil", "date": "2026-10-07", "heure": "", "source": "https://www.titrespresse.com/24216712603/mouvement-honore-urfe", "cree": "2026-10-07T12:40:00+02:00"}
+]
